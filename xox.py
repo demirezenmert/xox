@@ -22,11 +22,11 @@ game  = running
 m_gamer = 'X'   # player mark
 
 def DrawBoard():
-    print(" %c | %c | %c " % (board[1],board[2],board[3]))    
+    print(" %c | %c | %c " % (board[1],board[2],board[3]))
     print("___|___|___")
-    print(" %c | %c | %c " % (board[4],board[5],board[6]))    
+    print(" %c | %c | %c " % (board[4],board[5],board[6]))
     print("___|___|___")
-    print(" %c | %c | %c " % (board[7],board[8],board[9]))    
+    print(" %c | %c | %c " % (board[7],board[8],board[9]))
     print("   |   |   ")
 
 
