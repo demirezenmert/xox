@@ -43,3 +43,11 @@ def checkWin () :
     if (board[1] == board[2] and board[2] == board[3] and board[1] != " ") : game = win
     elif (board[4] == board[5] and board[5] == board[6] and board[4] != " ") : game = win
     elif  (board[7] == board[8] and board[8] == board[9] and board[7] != ' ') : game = win
+
+# ____________- Vertical - ______________
+    elif (board[1] == board[4] and board[4] == board[7] and board[1] != " ") : game = win
+    elif (board[2] == board[5] and board[5] == board[8] and board[2] != " ") : game = win
+    elif (board[3] == board[6] and board[6] == board[9] and board[3] != " ") : game = win
+# ____________- Diagonal - ______________
+    elif (board[1] == board[5] and board[5] == board[9] and board[1] != " ") : game = win
+    elif (board[3] == board[5] and board[5] == board[9] and board[3] != " ") : game = win
